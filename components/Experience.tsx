@@ -8,6 +8,7 @@ import React, { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Card from "../components/Card";
+import projects from "../public/projects.json"
 
 type Project = {
   id: number;
@@ -29,7 +30,6 @@ const Experience = () => {
     if (inView) {
       animation.start({
         x: 0,
-        // maxWidth: "100vw", // start with a larger width
         transition: {
           type: "spring",
           duration: 1,
@@ -37,7 +37,6 @@ const Experience = () => {
         },
       }).then(() => {
         animation.start({
-          // maxWidth: "75vw", // transition to smaller width
           transition: {
             type: "spring",
             duration: 1
@@ -49,58 +48,6 @@ const Experience = () => {
       animation.start({ x: "-100vw" });
     }
   }, [inView]);
-
-  const projects: Project[] = [
-    {
-      id: 1,
-      name: "philly-insights",
-      description:
-        "Application that allows users to analyze crime and property trends in Philadelphia. Built with signup/login, data visualization, and analysis features.",
-      skills: ["React", "MongoDB", "Oracle"],
-      github: "https://github.com/m1chael-lu/philly-insights",
-    },
-    {
-      id: 1,
-      name: "philly-insights",
-      description:
-        "Application that allows users to analyze crime and property trends in Philadelphia. Built with signup/login, data visualization, and analysis features.",
-      skills: ["React", "MongoDB", "Oracle"],
-      github: "https://github.com/m1chael-lu/philly-insights",
-    },
-    {
-      id: 1,
-      name: "philly-insights",
-      description:
-        "Application that allows users to analyze crime and property trends in Philadelphia. Built with signup/login, data visualization, and analysis features.",
-      skills: ["React", "MongoDB", "Oracle"],
-      github: "https://github.com/m1chael-lu/philly-insights",
-    },
-    {
-      id: 1,
-      name: "philly-insights",
-      description:
-        "Application that allows users to analyze crime and property trends in Philadelphia. Built with signup/login, data visualization, and analysis features.",
-      skills: ["React", "MongoDB", "Oracle"],
-      github: "https://github.com/m1chael-lu/philly-insights",
-    },
-    {
-      id: 1,
-      name: "philly-insights",
-      description:
-        "Application that allows users to analyze crime and property trends in Philadelphia. Built with signup/login, data visualization, and analysis features.",
-      skills: ["React", "MongoDB", "Oracle"],
-      github: "https://github.com/m1chael-lu/philly-insights",
-    },
-    {
-      id: 1,
-      name: "philly-insights",
-      description:
-        "Application that allows users to analyze crime and property trends in Philadelphia. Built with signup/login, data visualization, and analysis features.",
-      skills: ["React", "MongoDB", "Oracle"],
-      github: "https://github.com/m1chael-lu/philly-insights",
-    },
-    
-  ];
 
   const [isScrolling, setIsScrolling] = useState(false);
   const handleScroll = () => {

@@ -16,7 +16,7 @@ const Card = ({ project }: Props) => {
   return (
     <div
       key={project.id}
-      className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-card-color opacity-80 flex-shrink-0"
+      className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-card-color opacity-80 flex-shrink-0 select-none h-80"
     >
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 ">{project.name}</div>
