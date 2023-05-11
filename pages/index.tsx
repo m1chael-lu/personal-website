@@ -24,7 +24,6 @@ const Home: NextPage = () => {
       <section className="" id="about-section">
         <About />
       </section>
-
       {/*  Experience / Projects */}
       <section className="" id="experience-section">
         <Experience />

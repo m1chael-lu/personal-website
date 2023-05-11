@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Pick.it supplies",
         "description":
-          "Executed client project for three regional hospitals in Philadelphia to develop an inventory tracking and management web and mobile app, generating a projected $2 million in annual savings through reduced wastey",
+          "Took on client project for three Philadelphia hospitals to develop an inventory management web + mobile app with annual savings of $2 million through reduced waste",
         "skills": ["React", "Node.js", "MongoDB", "React Native", "Heroku"],
         "github": "https://github.com/m1chael-lu/pennbook"
     },

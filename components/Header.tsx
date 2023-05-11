@@ -19,12 +19,12 @@ const Header = (props: Props) => {
             offset={-100}
             duration={500}
           >
-            <Image
+            {/* <Image
               src="images/logo-no-background.svg"
               width={70}
               height={70}
               alt="logo"
-            ></Image>
+            ></Image> */}
           </Link>
         </div>
         <div className="hidden md:flex flex-row items-center space-x-4 xl:space-x-6 ">

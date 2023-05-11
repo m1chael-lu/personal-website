@@ -1,4 +1,5 @@
 import React from "react";
+import { IoIosArrowDown } from 'react-icons/io';
 
 interface Project {
   id: number;
@@ -16,26 +17,33 @@ const Card = ({ project }: Props) => {
   return (
     <div
       key={project.id}
-      className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-card-color opacity-80 flex-shrink-0 select-none h-80"
+      className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-card-color opacity-80 flex-shrink-0 select-none h-80 transition-transform transform-gpu hover:scale-105 hover:shadow-2xl"
     >
-      <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2 ">{project.name}</div>
-        <p className="text-gray-700 text-base">{project.description}</p>
-        <p className="text-gray-700 text-base font-bold pt-2">
-          <a href={project.github} className="">
-            View Source Code
-          </a>
-        </p>
-      </div>
-      <div className="px-6 pt-4 pb-6">
-        {project.skills.map((skill) => (
-          <span
-            key={Math.random()}
-            className=" bg-cool-blue-color inline-block rounded-full px-3 py-1 text-sm font-semibold text-main-color mr-2 mb-2 "
-          >
-            {skill}
-          </span>
-        ))}
+      <div className="flex flex-col justify-between h-full px-6 py-4">
+        <div>
+          <div className="font-bold text-xl mb-2">{project.name}</div>
+          <p className="text-gray-700 text-base">{project.description}</p>
+        </div>
+        <div>
+          <p className="text-gray-700 text-base font-bold pt-2">
+            <a href={project.github} className="hover:text-cool-blue-color transition-colors">
+              View Source Code
+            </a>
+          </p>
+          <div className="pt-4">
+            {project.skills.map((skill, index) => (
+              <span
+                key={index}
+                className="bg-cool-blue-color inline-block rounded-full px-3 py-1 text-sm font-semibold text-main-color mr-2 mb-2 hover:bg-main-color hover:text-cool-blue-color transition-colors"
+              >
+                {skill}
+              </span>
+              ))}
+          </div>
+          <div className="flex items-center justify-center">
+            <IoIosArrowDown className="text-xl opacity-25" />
+          </div>
+        </div>
       </div>
     </div>
   );
