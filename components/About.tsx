@@ -54,7 +54,7 @@ const About = (props: Props) => {
           </Link>
         </div>
         <div className="p-0 pl-12 items-center md:w-1/2">
-          <SkillsContainer name="Languages" skillList={["Javascript", "Python", "Java", 'C++', 'SQL', 'Ocaml']} />
+          <SkillsContainer name="Languages" skillList={["Javascript", "Python", "Java", 'C++', 'SQL', 'Swift', 'Ocaml']} />
           <SkillsContainer name="Technologies" skillList={["React", "Node.js", "React Native", 'Typescript', 'Pytorch', "Tensorflow", 'Docker', 'MongoDB', 'Jenkins']} />
         </div>
       </div>
