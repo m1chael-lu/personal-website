@@ -4,18 +4,14 @@
         "name": "Pick.it Supplies",
         "description":
           "Took on client project for three Philadelphia hospitals to develop an inventory tracking and management web and mobile app, generating annual savings of $2 million through reduced waste and increased efficiency",
-        "skills": ["React", "Node.js", "MongoDB", "Heroku"],
-        "github": "https://github.com/m1chael-lu/pennbook",
-        "image": "projectImages/pennbook-demo-image.png"
+        "image": "projectImages/pickit-supplies.png"
     },
     {
         "id": 2,
         "name": "Drug Discovery Research",
         "description":
           "Published research over two years for a set of predictive and generative models (SVM, KNN, random forest, deep learning, and an LSTM model) to predict and generate new peptide-based drugs for cancer",
-        "skills": ["Python", "Tensorflow", "Sklearn"],
-        "github": "https://github.com/m1chael-lu/pennbook",
-        "image": "projectImages/pennbook-demo-image.png"
+        "image": "projectImages/drug-research.png"
     },
     {
         "id": 3,
@@ -31,17 +27,13 @@
         "name": "Philly Insights",
         "description":
           "Designed an application that allows users to analyze crime and property trends in Philadelphia. Built with signup/login, data visualization, and analysis features.",
-        "skills": ["React", "MongoDB", "Oracle"],
-        "github": "https://github.com/m1chael-lu/philly-insights",
-        "image": "projectImages/pennbook-demo-image.png"
+        "image": "projectImages/philly-insights.png"
     },
     {
         "id": 5,
         "name": "Ticker Predictor",
         "description":
           "Trained stock prediction models that uses an LSTM model and Alpha Vantage API to predict stock prices based on fundamental and technical analysis",
-        "skills": ["Python", "Tensorflow"],
-        "github": "https://github.com/m1chael-lu/ticker-predictor",
         "image": "projectImages/ticker-predictor.jpeg"
     },
     {
@@ -49,8 +41,6 @@
         "name": "Water Scarcity Hackathon",
         "description":
           "Submission for the Xylem Water Hackathon. Built a convolutional neural network to project future water scarcity heatmaps in the next five years ",
-        "skills": ["Python", "Tensorflow"],
-        "github": "https://github.com/m1chael-lu/ticker-predictor",
         "image": "projectImages/water-scarcity.jpeg"
     }
 ]

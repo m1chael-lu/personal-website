@@ -44,9 +44,11 @@ const ProjectSection = (props: Props) => {
                         {/* image */}
                         <div>
                             {expandedProject && expandedProject.image && 
-                                <div className={`bg-center bg-no-repeat bg-cover rounded-2xl w-[650px] h-[365px] align-middle mt-10 border-8 border-gray-200 shadow hover:scale-105 transition-all transform ease-out duration-200 ml-8`} style={{
+                                <div 
+                                  className={`bg-center bg-no-repeat bg-cover rounded-2xl w-[650px] h-[365px] align-middle mt-20 border-8 border-gray-200 shadow hover:scale-105 transition-all transform ease-out duration-200 ml-8`} 
+                                  style={{
                                     backgroundImage: `url(${expandedProject.image})`,
-                                }}>
+                                  }}>
                                 </div>
                                 
                             }
