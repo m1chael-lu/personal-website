@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import Hamburger from "hamburger-react";
 import Image from "next/image";
+
 type Props = {};
 
 const Header = (props: Props) => {

@@ -9,20 +9,16 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Card from "../components/Card";
 import projects from "../public/projects.json"
+import { Project } from "../public/types";
 
-type Project = {
-  id: number;
-  name: string;
-  description: string;
-  skills: string[];
-  github: string;
-};
+interface Props {
+  setProject: React.Dispatch<React.SetStateAction<Project | undefined>>;
+}
 
-const Experience = () => {
+const Experience = (props: Props) => {
   const { ref, inView } = useInView({
     threshold: 0.2,
   });
-  const [showScrollbar, setShowScrollbar] = useState(false);
 
   const animation = useAnimation();
 
@@ -83,7 +79,7 @@ const Experience = () => {
           >
             {projects.map((project) => (
               <div key={project.id} className="flex-shrink-0 mx-auto"> {/* Add mx-auto here */}
-                <Card project={project} />
+                <Card project={project} setProject={props.setProject}/>
               </div>
             ))}
           </div>
