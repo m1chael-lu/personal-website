@@ -1,1 +1,1 @@
-This is a personal website I created!
+This is my personal website, designed with Next.js and Tailwind CSS. 
