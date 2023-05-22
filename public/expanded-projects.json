@@ -2,48 +2,42 @@
     {
         "id": 1,
         "name": "Pick.it Supplies",
-        "description":
-          "Took on client project for three Philadelphia hospitals to develop an inventory tracking and management web and mobile app, generating annual savings of $2 million through reduced waste and increased efficiency",
+        "description": "I worked with three regional hospitals among a team of UPenn students to build an order fullfillment and tracking web and mobile app to reduce waste and increase ordering efficiency for medical supplies. I worked with a subteam for focusing on the tracking and notification components, and the entire system is expected to generate an annual savings of $2 million through reduced waste.",
         "image": "projectImages/pickit-supplies.png",
         "skills": ["Javascript", "React.js", "Node.js", "Express", "MongoDB", "React Native", "Heroku"]
     },
     {
         "id": 2,
         "name": "Drug Discovery Research",
-        "description":
-          "Published research over two years for a set of predictive and generative models (SVM, KNN, random forest, deep learning, and an LSTM model) to predict and generate new peptide-based drugs for cancer",
+        "description": "Took on client project for three Philadelphia hospitals to develop an inventory tracking and management web and mobile app, generating annual savings of $2 million through reduced waste and increased efficiency",
         "image": "projectImages/drug-research.png",
         "skills": ["Python", "Keras", "Sklearn", "Numpy", "Pydpi", "Bio"]
     },
     {
         "id": 3,
         "name": "Pennbook",
-        "description":
-          "Launched a social media platform for Penn students to connect, with messaging, friends, posts, and news functionalities deployed to an EC2 instance",
+        "description": "Took on client project for three Philadelphia hospitals to develop an inventory tracking and management web and mobile app, generating annual savings of $2 million through reduced waste and increased efficiency",
         "image": "projectImages/pennbook-demo-image.png",
-        "skills": ["Javascript", "Java", "Node.js", "Express", "Dynamo DB", "EC2", "Apache Spark"]
+        "skills": ["Javascript", "Java", "Node.js", "Express", "AWS DynamoDB", "AWS EC2", "Apache Spark", "Socket.io"]
     },
     {
         "id": 4,
         "name": "Philly Insights",
-        "description":
-          "Designed an application that allows users to analyze crime and property trends in Philadelphia. Built with signup/login, data visualization, and analysis features.",
+        "description": "Took on client project for three Philadelphia hospitals to develop an inventory tracking and management web and mobile app, generating annual savings of $2 million through reduced waste and increased efficiency",
         "image": "projectImages/philly-insights.png",
         "skills": ["Javascript", "MongoDB", "Oracle MySql", "React.js", "Node.js", "Express"]
     },
     {
         "id": 5,
         "name": "Ticker Predictor",
-        "description":
-          "Trained stock prediction models that uses an LSTM model and Alpha Vantage API to predict stock prices based on fundamental and technical analysis",
+        "description": "Took on client project for three Philadelphia hospitals to develop an inventory tracking and management web and mobile app, generating annual savings of $2 million through reduced waste and increased efficiency",
         "image": "projectImages/ticker-predictor.jpeg",
         "skills": ["Python", "Tensorflow", "Alpha Vantage API"]
     },
     {
         "id": 6,
         "name": "Water Scarcity Hackathon",
-        "description":
-          "Submission for the Xylem Water Hackathon. Built a convolutional neural network to project future water scarcity heatmaps in the next five years ",
+        "description": "Took on client project for three Philadelphia hospitals to develop an inventory tracking and management web and mobile app, generating annual savings of $2 million through reduced waste and increased efficiency",
         "image": "projectImages/water-scarcity.jpeg",
         "skills": ["Python", "Keras", "Raster.io", "Numpy"]
     }
