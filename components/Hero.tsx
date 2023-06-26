@@ -37,9 +37,9 @@ const Hero = (props: Props) => {
         </div>
         <div className="p-8">
           <Image
-            src="images/avataaars2.png"
-            width={256}
-            height={256}
+            src="images/ML-Logo.png"
+            width={300}
+            height={300}
             alt="Hero Image"
           ></Image>
         </div>

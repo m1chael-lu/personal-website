@@ -9,35 +9,35 @@
     {
         "id": 2,
         "name": "Drug Discovery Research",
-        "description": "Took on client project for three Philadelphia hospitals to develop an inventory tracking and management web and mobile app, generating annual savings of $2 million through reduced waste and increased efficiency",
+        "description": "In 2020, I became drawn to the idea of leveraging machine learning tools for drug discovery. In the previous year, I conducted research on building a two-phase drug design architecture for peptide-based drugs. I wanted to find a way to leverage this architecture for higher-impact, chronic diseases like cancer. Through the next two years, I developed 4 predictive models (support vector machine, deep learning, random forest, and K-nearest neighbors) to predict whether a protein carried anticancer properties. I also developed a generative LSTM model using a sliding window technique to generate new drug candidates. I verified these drug candidates against my predictive models, published models, and online literature, and I found that around 90% of my candidates carry anticancer properties. I presented my research at ISEF, Regeneron STS, and published to the Journal of Young Investigators.",
         "image": "projectImages/drug-research.png",
         "skills": ["Python", "Keras", "Sklearn", "Numpy", "Pydpi", "Bio"]
     },
     {
         "id": 3,
         "name": "Pennbook",
-        "description": "Took on client project for three Philadelphia hospitals to develop an inventory tracking and management web and mobile app, generating annual savings of $2 million through reduced waste and increased efficiency",
+        "description": "As part of my NETS 2120 Final Project, I worked with a team of three other students at the University of Pennsylvania to design a social hub for Penn students to meet new friends, communicate in real time, and post updates and statuses about each others lives. We wanted to tailor the application for Penn students, and designed the application to be Penn-exclusive. In addition, we incorporated a basic Spark-based news functionality with an adsorption algorithm for students to read and share.",
         "image": "projectImages/pennbook-demo-image.png",
         "skills": ["Javascript", "Java", "Node.js", "Express", "AWS DynamoDB", "AWS EC2", "Apache Spark", "Socket.io"]
     },
     {
         "id": 4,
         "name": "Philly Insights",
-        "description": "Took on client project for three Philadelphia hospitals to develop an inventory tracking and management web and mobile app, generating annual savings of $2 million through reduced waste and increased efficiency",
+        "description": "For my CIS 4500 (Databases) final project, I worked with a team of three other students at the University of Pennsylvania to design an analytics site for Philadelphia crimes and properties. We leveraged the MERN stack to build a full-stack web application that allows users to make an account, visualize and procress through hundreds of thousands of crime and property rows. With a large amount of data, we also leveraged MySQL indexing and 3NF database normalization to increase query efficiency. Overall, our hope is that the application can be used by residents, real estate agents, and even city officials to optimize their decision making.",
         "image": "projectImages/philly-insights.png",
         "skills": ["Javascript", "MongoDB", "Oracle MySql", "React.js", "Node.js", "Express"]
     },
     {
         "id": 5,
         "name": "Ticker Predictor",
-        "description": "Took on client project for three Philadelphia hospitals to develop an inventory tracking and management web and mobile app, generating annual savings of $2 million through reduced waste and increased efficiency",
+        "description": "With how difficult it is for everyday individuals to learn how to invest, I wanted to build a tool that could help people make better investment decisions. Using a Long Short-Term Memory network, I designed an application that leverages both fundamental (DCF analysis) and technical analysis (SMA, 60-day highs and lows) to predict the next few days stock prices. I trained the model on 20 years of Alpha Vantage stock data and created an interface for users to input their own stock tickers and see predicted trajectories with easy-to-understand rationales.",
         "image": "projectImages/ticker-predictor.jpeg",
         "skills": ["Python", "Tensorflow", "Alpha Vantage API"]
     },
     {
         "id": 6,
         "name": "Water Scarcity Hackathon",
-        "description": "Took on client project for three Philadelphia hospitals to develop an inventory tracking and management web and mobile app, generating annual savings of $2 million through reduced waste and increased efficiency",
+        "description": "In 2019, I participated in the Xylem Water Hackathon, which was focused on leveraging technology to build global solutions for water scarcity. First, my idea on a macro-level was to create a global water scarcity heatmap-prediction tool using a U-Net Convolutional Neural Network to be used by Xylem officials when determining areas of importance for water infrastructure. Second, my idea on a micro-level was to create a water-proximity tool that uses your geographical location to find nearby, larger sources of water. This would be used by individuals who are looking to design improved water infrastructure on more of a micro-level. This project submission won a top 5 award. ",
         "image": "projectImages/water-scarcity.jpeg",
         "skills": ["Python", "Keras", "Raster.io", "Numpy"]
     }
