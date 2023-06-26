@@ -1,10 +1,4 @@
-declare global {
-  interface Window {
-    scrollTimeout: any;
-  }
-}
-
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Card from "../components/Card";
@@ -13,6 +7,12 @@ import { Project } from "../public/types";
 
 interface Props {
   setProject: React.Dispatch<React.SetStateAction<Project | undefined>>;
+}
+
+declare global {
+  interface Window {
+    scrollTimeout: any;
+  }
 }
 
 const Experience = (props: Props) => {
@@ -63,8 +63,29 @@ const Experience = (props: Props) => {
     };
   }, []);
 
+  const cardsContainerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const div = cardsContainerRef.current;
+
+    const handleWheel = (e: WheelEvent) => {
+      if (e.deltaY === 0) return;
+
+      e.preventDefault();
+
+      if (div) {
+        div.scrollLeft += e.deltaY;
+      }
+    };
+
+    div?.addEventListener("wheel", handleWheel, { passive: false });
+
+    return () => {
+      div?.removeEventListener("wheel", handleWheel);
+    };
+  }, []);
+
   return (
-    
     <div ref={ref} className="bg-main-color">
       <h1 className="text-5xl font-bold p-4 text-center mx-auto text-cool-blue-color pt-10">Projects</h1>
       <div
@@ -74,11 +95,12 @@ const Experience = (props: Props) => {
       <div className="p-6 mx-auto">
         <motion.div animate={animation}>
           <div
+            ref={cardsContainerRef}
             id="cardsContainer"
             className={`flex flex-row overflow-x-scroll space-x-4 mx-auto p-6 flex-shrink-0`}
           >
             {projects.map((project) => (
-              <div key={project.id} className="flex-shrink-0 mx-auto"> {/* Add mx-auto here */}
+              <div key={project.id} className="flex-shrink-0 mx-auto">
                 <Card project={project} setProject={props.setProject}/>
               </div>
             ))}
