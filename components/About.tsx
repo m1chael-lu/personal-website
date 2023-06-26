@@ -31,7 +31,7 @@ const About = (props: Props) => {
           </p>
           <p className="text-xl mb-8">
             I have a passion for leveraging software and ML tools to tackle
-            technical problems in Health and Finance 
+            technical problems in Health and Finance. 
             I have a range of experiences working in <b>full-stack development </b>
             and <b> data science </b>, and I have an openness for learning and developing
             my skills further.  

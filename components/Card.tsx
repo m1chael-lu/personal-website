@@ -49,7 +49,7 @@ const Card = ({ project, setProject }: Props) => {
               ))}
           </div>
           <div className="flex items-center justify-center">
-            <IoIosArrowDown className="text-xl opacity-25" />
+            <IoIosArrowDown className="text-xl opacity-25 hover:opacity-75" />
           </div>
         </div>
       </div>

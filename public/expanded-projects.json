@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Pick.it Supplies",
-        "description": "I worked with three regional hospitals among a team of UPenn students to build an order fullfillment and tracking web and mobile app to reduce waste and increase ordering efficiency for medical supplies. I worked with a subteam for focusing on the tracking and notification components, and the entire system is expected to generate an annual savings of $2 million through reduced waste.",
+        "description": "I worked with three regional hospitals with a team of students at the University of Pennsylvania to build and launch an order fullfillment/tracking web and mobile app. In the existing state of the medical supply order flow, nurses relied on using a hospital telephone to contact storeroom clerks to order among hundreds of different supplies. This often led to miscommunication and resulted in wrong orders and wasted supplies. The primary goal our team was to reduce waste and improve order efficiency. I worked with a subteam focused on order purchase, tracking, and notifications. Our platform has reduced the chance of supply mispurchase by 15%, which translates to $2 million in annual savings for the three hospitals.",
         "image": "projectImages/pickit-supplies.png",
         "skills": ["Javascript", "React.js", "Node.js", "Express", "MongoDB", "React Native", "Heroku"]
     },
