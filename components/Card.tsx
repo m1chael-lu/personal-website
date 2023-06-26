@@ -24,7 +24,7 @@ const Card = ({ project, setProject }: Props) => {
   return (
     <div
       key={project.id}
-      className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-card-color opacity-80 flex-shrink-0 select-none h-80 transition-transform transform-gpu hover:scale-105 hover:shadow-2xl mr-4"
+      className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-card-color opacity-80 flex-shrink-0 select-none h-80 transition-transform transform-gpu hover:scale-105 hover:shadow-lg mr-4 mb-2"
       onClick={handleClick}
     >
       <div className="flex flex-col justify-between h-full px-6 py-4">

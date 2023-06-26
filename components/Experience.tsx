@@ -97,7 +97,7 @@ const Experience = (props: Props) => {
           <div
             ref={cardsContainerRef}
             id="cardsContainer"
-            className={`flex flex-row overflow-x-scroll space-x-4 mx-auto p-6 flex-shrink-0`}
+            className={`flex flex-row overflow-x-scroll space-x-4 mx-auto p-6 flex-shrink-0 scrollbar-hide`}
           >
             {projects.map((project) => (
               <div key={project.id} className="flex-shrink-0 mx-auto">
